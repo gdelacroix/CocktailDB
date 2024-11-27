@@ -16,7 +16,7 @@ searchButton.addEventListener('click', () => {
 
     //je vérifie ce qui a été coché
     const searchType = searchByName.checked ? 'name' : 'ingredient';
-    if (!query) return alert("Veuillez entrer un terme de recherche.");
+    if (!query) return alert("Please entrer a search term.");
 
     const endpoint =
         searchType === 'name'
