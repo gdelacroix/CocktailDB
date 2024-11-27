@@ -1,0 +1,8 @@
+
+ #modalImage {
+    max-width: 100%; /* Assure que l'image ne dépasse pas la largeur de son conteneur */
+    max-height: 300px; /* Limite la hauteur de l'image */
+    object-fit: cover; /* Garde l'image proportionnée */
+    display: block;
+    margin: 0 auto; /* Centre l'image horizontalement */
+  }  
